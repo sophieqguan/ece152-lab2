@@ -1,4 +1,5 @@
-// The module "fourBitAdder FourByOne" ...
+// The module "fourBitAdder FourByOne" uses four Full Adder to calculate a four-bit sum
+
 module fourBitAdder_FourByOne(A, B, cin, S, cout);
 	input [3:0] A, B;
 	input cin;
