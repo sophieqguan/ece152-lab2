@@ -1,3 +1,4 @@
+// The Four Bit Adder uses two two-bit adder to compute a four-bit sum
 
 module fourBitAdder_TwoByTwo(A, B, cin, S, cout);
 input [3:0] A, B;
