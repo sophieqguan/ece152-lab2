@@ -1,21 +1,18 @@
 
 
-// Students: Write a description for your testbench.
-// The module "fourBitAdder FourByOne" ...
+// Tests the implementations
 module adder__full_tb;
 wire [3:0] A, B;
 wire cin;
 wire [3:0] S0, S1;
 wire cout0, cout1;
-// Students: Implementation goes here
-// Students: Instantiate the ?fourBitAdder_FourByOne? module
+	
 fourBitAdder_FourByOne f0(
 .A(A),
 .B(B),
 .cin(cin),
 .S(S0),
 .cout(cout0));
-
 
 fourBitAdder_TwoByTwo f1(
 .A(A),
